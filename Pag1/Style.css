@@ -1,0 +1,48 @@
+body{
+    background: url(book1.jpg);
+    margin: 0;
+    padding :0;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.form{
+    width: 100%;
+    
+    box-sizing:border-box;
+    height:400px;
+    background:#fff;
+    background:url(c33.jpeg);
+}
+.title{
+    text-align:center;
+    font-family: cursive;
+}
+.container{
+    
+    
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+.f1{
+    float:right;
+    padding: 20px 20px;
+    
+}
+.f2{
+    padding-bottom: 20px;
+    float: right;
+}
+.i1{
+    float:right;
+    
+}
+.i2{
+    float:right;
+    
+}
+.b1{
+    float: center;
+}
