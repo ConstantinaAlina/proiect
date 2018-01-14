@@ -2,6 +2,8 @@ var express = require("express");
 var Sequelize = require("sequelize");
 var nodeadmin = require("nodeadmin");
 var bodyParser=require("body-parser");
+var cors=require("cors");
+
 
 
 var sequelize = new Sequelize('Carti', 'root', '', {
@@ -65,6 +67,7 @@ app.use(bodyParser.urlencoded({
     extended:true
 }));
 
+app.use(cors());
 
 Books.belongsTo(Librarys,{foreignKey:"id_biblioteca",targetKey:"id_biblioteca"});
 

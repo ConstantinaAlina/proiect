@@ -1,0 +1,100 @@
+
+  body{
+ 
+    margin: 0;
+    padding :0;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+button{
+   color:green;
+   font-family: sans-serif;
+   text-shadow: rgb(220,0,0)
+}
+.myform{
+    
+    background:url(c33.jpeg);
+       width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+   
+}
+.f2{
+    padding-bottom: 20px;
+    float: right;
+    padding-top: 50px;
+}
+input{
+    float:right;
+    margin-right: 20px;
+}
+
+
+.uluser{
+    padding-top: 460px;
+    float:right;
+    padding-right: 100px;
+    font-family: sans-serif;
+    size: 20px;
+    color: rgb(100,120,90);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.active{
+    float: right;
+}
+
+.bookform{
+   float:left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left:50px;
+    
+}
+.divUser{
+    float:left;
+}
+#btnBook{
+    float:left;
+    margin-top: 300px;
+    width: 150px;
+    height: 50px;
+    margin-right: 200px;
+}
+#img1{
+    float:left;
+    width: 100px;
+    height: 150px;
+
+    
+}
+.d1{
+    float:left;
+    margin-left: 30px;
+ 
+}
